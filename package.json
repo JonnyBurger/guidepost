@@ -1,5 +1,5 @@
 {
-  "name": "@jonny/redirector",
+  "name": "guidepost",
   "version": "1.0.0",
   "description": "Redirect all requests to another domain",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonnyburger/redirect.git"
+    "url": "git+https://github.com/jonnyburger/guidepost.git"
   },
   "keywords": [
     "301",
@@ -17,7 +17,11 @@
   "author": "Jonny <jonathanburger11@gmail.com> (http://jonny.io)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jonnyburger/redirect/issues"
+    "url": "https://github.com/jonnyburger/guidepost/issues"
   },
-  "homepage": "https://github.com/jonnyburger/redirect#readme"
+  "homepage": "https://github.com/jonnyburger/guidepost#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "url-join": "^1.1.0"
+  }
 }
