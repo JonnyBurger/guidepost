@@ -1,10 +1,10 @@
 {
   "name": "guidepost",
   "version": "1.0.0",
-  "description": "Redirect all requests to another domain",
+  "description": "Redirect all requests to another domain Redirect all requests to another domain",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,9 @@
   "keywords": [
     "301",
     "redirect"
+  ],
+  "files": [
+    "index.js"
   ],
   "author": "Jonny <jonathanburger11@gmail.com> (http://jonny.io)",
   "license": "ISC",
@@ -23,5 +26,11 @@
   "dependencies": {
     "express": "^4.14.0",
     "url-join": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "get-port": "^2.1.0",
+    "got": "^6.3.0",
+    "xo": "^0.16.0"
   }
 }
