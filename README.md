@@ -1,6 +1,6 @@
 # guidepost [![Build Status](https://travis-ci.org/JonnyBurger/guidepost.svg?branch=master)](https://travis-ci.org/JonnyBurger/guidepost)
 
-> Redirect all requests to another domain Redirect all requests to another domain
+> Redirect all requests to another domain
 
 ## Installation
 
