@@ -1,0 +1,23 @@
+{
+  "name": "@jonny/redirector",
+  "version": "1.0.0",
+  "description": "Redirect all requests to another domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyburger/redirect.git"
+  },
+  "keywords": [
+    "301",
+    "redirect"
+  ],
+  "author": "Jonny <jonathanburger11@gmail.com> (http://jonny.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnyburger/redirect/issues"
+  },
+  "homepage": "https://github.com/jonnyburger/redirect#readme"
+}
